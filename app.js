@@ -13,7 +13,9 @@ fruits.forEach(a => {
     
     let li1 = document.createElement("li");
     let imgg =document.createElement("img");
-       imgg.src = a;
+    imgg.src = a;
+    li1.textContent =`${a}`;
+    
        imgg.style.width = "100px";
        imgg.style.height="100px"
        li1.style.listStyle ="none";
